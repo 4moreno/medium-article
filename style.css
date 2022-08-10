@@ -1,0 +1,70 @@
+.banner {
+  background-image: url(https://picsum.photos/1000/400);
+  background-size: cover;
+  padding: 100;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 54px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 38px;
+  color: rgb(203, 192, 192)
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: rgb(203, 192, 192);
+  text-align: justify;
+}
+
+a {
+  font-family: 'Raleway', sans-serif;
+  background-image: linear-gradient(#d2a4a4, #a9adde);
+  font-size: 18px;
+  color: rgb(203, 192, 192);
+  text-align: justify;
+  text-decoration: none;
+  margin: 10 auto;
+}
+
+a:hover {
+  background-image: linear-gradient(#e66465, #9198e5);
+  text-decoration: none;
+}
+.container {
+  text-align: center;
+  padding: 0 100 100 150;
+  width: 700 auto;
+}
+
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
